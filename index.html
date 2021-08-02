@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Camera</title>
+    <style>
+        body {
+            font-family: Rubik, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-align: center;
+            color: #0a0d4d;
+        }
+        
+        .camera {
+            width: 100%;
+            border-radius: 12px;
+            height: 250px;
+            border: 1px solid #e9e9f7;
+            background: #f9f9fb;
+        }
+        
+        .card {
+            background: #f9f9fb;
+            border: 1px solid #e9e9f7;
+            border-radius: 12px;
+            padding: 25px;
+            width: 100%;
+            height: 150px;
+            max-width: 313px;
+            box-sizing: border-box;
+            margin: 20px 10px;
+        }
+        
+        .card__section {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .card__icon {
+            border-radius: 50%;
+            background: #007aff;
+            width: 44px;
+            height: 44px;
+            flex-basis: 17%;
+            display: flex;
+            justify-content: center;
+            margin-right: 7px;
+            align-items: center;
+        }
+        
+        .card__heading {
+            text-align: left;
+            margin: 0;
+            font-weight: 800;
+            font-size: 21px;
+            flex-basis: 80%;
+            line-height: 29px;
+            letter-spacing: -0.078px;
+            color: #0a0d4d;
+        }
+        
+        .card__text--grey {
+            font-weight: 500;
+            font-size: 16px;
+            margin: 0;
+            line-height: 18px;
+            text-align: left;
+            letter-spacing: -0.078px;
+            color: #6366ab;
+        }
+        
+        .card__text--big {
+            font-size: 48px;
+            margin: 0;
+            text-align: right;
+            line-height: 66px;
+        }
+        
+        sup {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+        }
+        
+        .home {
+            max-width: 720px;
+            box-sizing: border-box;
+            padding: 24px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #e9e9f7;
+            border-radius: 12px;
+        }
+        
+        .home__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
+    <script></script>
+</head>
+
+<body>
+    <section class="home">
+        <h1 class="home__heading">Drone X Camera Panel</h1>
+        <div class="camera"></div>
+        <div class="home__cards">
+            <div data-v-083617c7="" class="card">
+                <div data-v-083617c7="" class="card__section">
+                    <div data-v-083617c7="" class="card__icon">
+                        <svg data-v-083617c7="" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M12.8333 13.53V3.20835C12.8333 2.60057 12.5919 2.01767 12.1621 1.5879C11.7324 1.15813 11.1495 0.916687 10.5417 0.916687C9.93388 0.916687 9.35099 1.15813 8.92121 1.5879C8.49144 2.01767 8.25 2.60057 8.25 3.20835V13.53C7.51417 14.0217 6.95596 14.7369 6.65782 15.5702C6.35967 16.4034 6.33739 17.3104 6.59428 18.1573C6.85116 19.0041 7.37359 19.7459 8.08439 20.2731C8.7952 20.8003 9.6567 21.0849 10.5417 21.0849C11.4266 21.0849 12.2881 20.8003 12.9989 20.2731C13.7097 19.7459 14.2322 19.0041 14.4891 18.1573C14.7459 17.3104 14.7237 16.4034 14.4255 15.5702C14.1274 14.7369 13.5692 14.0217 12.8333 13.53Z"
+                    stroke="white"
+                    stroke-width="1.83333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="22" height="22" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+                    </div>
+                    <div data-v-083617c7="">
+                        <h3 data-v-083617c7="" class="card__heading">Temperature</h3>
+                        <p data-v-083617c7="" class="card__text--grey">In ˚c</p>
+                    </div>
+                </div>
+                <p data-v-083617c7="" class="card__text card__text--big">
+                    35<sup data-v-083617c7="">˚c</sup>
+                </p>
+            </div>
+            <div data-v-083617c7="" class="card">
+                <div data-v-083617c7="" class="card__section">
+                    <div data-v-083617c7="" class="card__icon">
+                        <svg data-v-083617c7="" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11 2.46582L16.1884 7.65415C17.2144 8.67955 17.9133 9.98621 18.1967 11.4089C18.48 12.8315 18.3351 14.3063 17.7802 15.6465C17.2253 16.9868 16.2853 18.1324 15.0793 18.9384C13.8732 19.7444 12.4552 20.1746 11.0046 20.1746C9.554 20.1746 8.13599 19.7444 6.92992 18.9384C5.72386 18.1324 4.78393 16.9868 4.22902 15.6465C3.67412 14.3063 3.52918 12.8315 3.81253 11.4089C4.09588 9.98621 4.79479 8.67955 5.82085 7.65415L11 2.46582Z"
+                  stroke="white"
+                  stroke-width="1.83333"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+                    </div>
+                    <div data-v-083617c7="">
+                        <h3 data-v-083617c7="" class="card__heading">Humidity</h3>
+                        <p data-v-083617c7="" class="card__text--grey">
+                            In percentage (%)
+                        </p>
+                    </div>
+                </div>
+                <p data-v-083617c7="" class="card__text card__text--big">
+                    65<sup data-v-083617c7="">%</sup>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
